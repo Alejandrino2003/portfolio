@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Profile, education and CV of Jerome Patrick Alejandrino.">
+  <title>Profile | Jerome Patrick Alejandrino</title>
+  <meta name="theme-color" content="#0a121a">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+
+<body class="profile-page">
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="main.html">Jerome Patrick</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="main.html">OVERVIEW</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="passion.html">PASSION</a></li>
+        <li><a href="knowledge.html">KNOWLEDGE BASE</a></li>
+        <li><a href="bucketlist.html">BUCKET LIST</a></li>
+        <li><a href="certifications.html">CERTIFICATIONS</a></li>
+        <li><a href="social.html">SOCIAL MEDIA</a></li>
+        
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-toggle-wrap"><input class="toggle-input" type="checkbox" id="nav-switch" aria-label="Toggle navigation menu" aria-controls="nav-links"><label class="nav-toggle" for="nav-switch" aria-hidden="true">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </label></span>
+      </div>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </nav>
+
+ <div class="container">
+    <header id="home">
+      <div class="header-top">
+        <a class="zoom avatar-zoom" href="#lb-avatar" aria-label="Enlarge profile photo"><img class="avatar" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino" /></a>
+        <div class="header-copy">
+          <span class="eyebrow">Profile</span>
+          <h1>My Journey to Software Development</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="profile-section">
+      <h2>ALEJANDRINO JEROME PATRICK</h2>
+
+      <article class="post">
+        <h3>GET TO KNOW ME</h3>
+        <time datetime="2003-10-12">October 12, 2003</time>
+        <p>I am Jerome Patrick Alejandrino, a student who loves to learn, explore, and grow every day. I enjoy discovering new ideas and improving my skills through experience and curiosity.</p>
+        <p>I am currently a computer engineering student with a strong interest in technology, programming, and problem-solving. I believe that discipline, hard work, and consistency can help me become better in both my studies and personal life.</p>
+        <p>Beyond academics, I also enjoy music, sports, gaming, and spending time with people who inspire me. These interests help me stay balanced and motivated while I continue building my future.</p>
+      </article>
+
+      <article class="post">
+        <h3>MY COLLEGE JOURNEY</h3>
+        <p>My college journey has been full of challenges and learning experiences. Each subject and activity has helped me develop patience, discipline, and confidence.</p>
+        <p>I continue to push myself forward while staying open to new opportunities in computer engineering and beyond.</p>
+      </article>
+
+      <article class="post">
+        <h3>EDUCATION &amp; EXPERIENCE</h3>
+        <p>The path that brought me here, from my first school years to today.</p>
+        <h4 class="subhead">Education</h4>
+        <ol class="edu-list">
+          <li class="edu-item is-current"><span class="edu-year">2024 &ndash; Present</span><span class="edu-name">Dr. Yanga's Colleges Inc.</span><span class="edu-note">BS Computer Engineering</span></li>
+          <li class="edu-item"><span class="edu-year">2021 &ndash; 2023</span><span class="edu-name">Taal Senior High School</span><span class="edu-note">Senior high school</span></li>
+          <li class="edu-item"><span class="edu-year">2017 &ndash; 2021</span><span class="edu-name">Taal High School</span><span class="edu-note">Junior high school</span></li>
+          <li class="edu-item"><span class="edu-year">2013 &ndash; 2017</span><span class="edu-name">Batia Elementary School</span><span class="edu-note">Elementary</span></li>
+          <li class="edu-item"><span class="edu-year">2012 &ndash; 2013</span><span class="edu-name">Abangan Sur Elementary School</span><span class="edu-note">Elementary</span></li>
+          <li class="edu-item"><span class="edu-year">2010 &ndash; 2011</span><span class="edu-name">Dr. Yanga's Colleges Inc.</span><span class="edu-note">Early education</span></li>
+        </ol>
+        <h4 class="subhead">Experience</h4>
+        <ul class="edu-list">
+          <li class="edu-item"><span class="edu-year">Nov 2023 &ndash; Jan 2024</span><span class="edu-name">McDonald's</span><span class="edu-note">Service Crew</span></li>
+        </ul>
+      </article>
+
+      <article class="post">
+        <h3>MY CV PREVIEW</h3>
+        <p>I am a hardworking and curious student who values growth, discipline, and meaningful learning. I aim to build a strong future through education, creativity, and persistence.</p>
+        <p>Here is a preview of my curriculum vitae. Click the image to enlarge it.</p>
+        <a class="zoom cv-zoom" id="cv" href="#lb-cv" aria-label="Enlarge CV preview"><img id="cv-preview" src="jerome-cv.jpg" alt="Jerome Patrick Alejandrino CV preview"></a>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="jerome-cv.jpg" download="Jerome-Patrick-Alejandrino-CV.jpg">Download my CV</a>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <p><strong>Copyright &copy; <span id="year">2026</span> Alejandrino. All rights reserved.</strong></p>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lb-avatar" role="dialog" aria-modal="true" aria-label="Jerome Patrick Alejandrino">
+    <a class="lightbox-backdrop" href="#overview" aria-label="Close enlarged image"></a>
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino">
+      <figcaption class="lightbox-caption">Jerome Patrick Alejandrino</figcaption>
+    </figure>
+    <a class="lightbox-close" href="#overview" aria-label="Close enlarged image">&times;</a>
+  </div>
+
+  <div class="lightbox" id="lb-cv" role="dialog" aria-modal="true" aria-label="Curriculum Vitae">
+    <a class="lightbox-backdrop" href="#overview" aria-label="Close enlarged image"></a>
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" src="jerome-cv.jpg" alt="Jerome Patrick Alejandrino CV preview">
+      <figcaption class="lightbox-caption">Curriculum Vitae</figcaption>
+    </figure>
+    <a class="lightbox-close" href="#overview" aria-label="Close enlarged image">&times;</a>
+  </div>
+
+  <a class="to-top" href="#overview" aria-label="Back to top">&uarr;</a>
+</body>
+</html>

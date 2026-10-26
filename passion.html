@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hobbies, series and music that inspire Jerome.">
+  <title>Passion | Jerome Patrick Alejandrino</title>
+  <meta name="theme-color" content="#0a121a">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+
+<body class="passion-page">
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="main.html">Jerome Patrick</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="main.html">OVERVIEW</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="passion.html">PASSION</a></li>
+        <li><a href="knowledge.html">KNOWLEDGE BASE</a></li>
+        <li><a href="bucketlist.html">BUCKET LIST</a></li>
+        <li><a href="certifications.html">CERTIFICATIONS</a></li>
+        <li><a href="social.html">SOCIAL MEDIA</a></li>
+        
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-toggle-wrap"><input class="toggle-input" type="checkbox" id="nav-switch" aria-label="Toggle navigation menu" aria-controls="nav-links"><label class="nav-toggle" for="nav-switch" aria-hidden="true">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </label></span>
+      </div>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </nav>
+
+  <div class="container">
+    <header id="home">
+      <div class="header-top">
+        <a class="zoom avatar-zoom" href="#lb-avatar" aria-label="Enlarge profile photo"><img class="avatar" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino" /></a>
+        <div class="header-copy">
+          <span class="eyebrow">Passion</span>
+          <h1>My Journey to Software Development</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class=<"profile-section">
+      <h2>PASSION &amp; INTERESTS</h2>
+
+      <div class="recommend">
+        <p class="recommend-title">A little inspiration</p>
+        <div class="rotator recommend-rotator" aria-label="Hobby and entertainment inspiration">
+          <p class="rot-item recommend-result">Try a new anime series or revisit a favorite.</p>
+          <p class="rot-item recommend-result">Put on a K-pop playlist and make room for a dance break.</p>
+          <p class="rot-item recommend-result">Challenge yourself to a game of table tennis or basketball.</p>
+        </div>
+      </div>
+
+      <div class="tabs" role="group" aria-label="Filter interests">
+        <input class="tab-input" type="radio" name="passion-filter" id="f-all" checked><label class="tab" for="f-all">All</label>
+        <input class="tab-input" type="radio" name="passion-filter" id="f-hobbies"><label class="tab" for="f-hobbies">Hobbies</label>
+        <input class="tab-input" type="radio" name="passion-filter" id="f-series"><label class="tab" for="f-series">Series</label>
+        <input class="tab-input" type="radio" name="passion-filter" id="f-music"><label class="tab" for="f-music">Music</label>
+      </div>
+
+      <article class="post" data-cat="hobbies">
+        <h3>Entertainment &amp; Hobbies</h3>
+        <p>I enjoy various forms of entertainment and hobbies that keep me engaged and inspired. Some of my favorite activities include:</p>
+        <ul class="chips">
+          <li class="chip">anime</li>
+          <li class="chip">K-pop</li>
+          <li class="chip">K-dramas</li>
+          <li class="chip">gaming</li>
+          <li class="chip">table tennis</li>
+          <li class="chip">basketball</li>
+          <li class="chip">discovering new food experiences</li>
+        </ul>
+      </article>
+
+      <article class="post" data-cat="series">
+        <h3>Favorite Series</h3>
+        <p>Some of my favorite shows include:</p>
+        <ul class="chips">
+          <li class="chip">Lovely Runner</li>
+          <li class="chip">Dr. Romantic</li>
+          <li class="chip">Weak Hero</li>
+          <li class="chip">One Piece</li>
+        </ul>
+      </article>
+
+      <article class="post" data-cat="music">
+        <h3>Favorite Artists</h3>
+        <p>I also enjoy listening to music from various artists, particularly in K-pop and western pop, including:</p>
+        <ul class="chips">
+          <li class="chip">BIGBANG</li>
+          <li class="chip">iKON</li>
+          <li class="chip">Red Velvet</li>
+          <li class="chip">Justin Bieber</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; <span id="year">2026</span> Alejandrino. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lb-avatar" role="dialog" aria-modal="true" aria-label="Jerome Patrick Alejandrino">
+    <a class="lightbox-backdrop" href="#overview" aria-label="Close enlarged image"></a>
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino">
+      <figcaption class="lightbox-caption">Jerome Patrick Alejandrino</figcaption>
+    </figure>
+    <a class="lightbox-close" href="#overview" aria-label="Close enlarged image">&times;</a>
+  </div>
+
+  <a class="to-top" href="#overview" aria-label="Back to top">&uarr;</a>
+</body>
+</html>

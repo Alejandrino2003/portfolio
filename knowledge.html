@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Technical skills and academic interests.">
+  <title>Knowledge Base | Jerome Patrick Alejandrino</title>
+  <meta name="theme-color" content="#0a121a">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+
+<body class="knowledge-page">
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="main.html">Jerome Patrick</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="main.html">OVERVIEW</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="passion.html">PASSION</a></li>
+        <li><a href="knowledge.html">KNOWLEDGE BASE</a></li>
+        <li><a href="bucketlist.html">BUCKET LIST</a></li>
+        <li><a href="certifications.html">CERTIFICATIONS</a></li>
+        <li><a href="social.html">SOCIAL MEDIA</a></li>
+       
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-toggle-wrap"><input class="toggle-input" type="checkbox" id="nav-switch" aria-label="Toggle navigation menu" aria-controls="nav-links"><label class="nav-toggle" for="nav-switch" aria-hidden="true">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </label></span>
+      </div>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </nav>
+
+ <div class="container">
+    <header id="home">
+      <div class="header-top">
+        <a class="zoom avatar-zoom" href="#lb-avatar" aria-label="Enlarge profile photo"><img class="avatar" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino" /></a>
+        <div class="header-copy">
+          <span class="eyebrow">Knowledge</span>
+          <h1>My Journey to Software Development</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="profile-section">
+      <h2>KNOWLEDGE BASE</h2>
+
+      <div class="tabs" role="group" aria-label="Filter knowledge areas">
+        <input class="tab-input" type="radio" name="knowledge-filter" id="f-all" checked><label class="tab" for="f-all">All</label>
+        <input class="tab-input" type="radio" name="knowledge-filter" id="f-web"><label class="tab" for="f-web">Web</label>
+        <input class="tab-input" type="radio" name="knowledge-filter" id="f-programming"><label class="tab" for="f-programming">Programming</label>
+        <input class="tab-input" type="radio" name="knowledge-filter" id="f-other"><label class="tab" for="f-other">Other skills</label>
+        <input class="tab-input" type="radio" name="knowledge-filter" id="f-focus"><label class="tab" for="f-focus">Focus areas</label>
+      </div>
+
+      <p class="skill-detail" id="skill-detail"><strong>Skill details:</strong> <span class="info info-tip">Select a skill below to see what it is.</span><span class="info info-html">Structures the content of a web page: headings, text, images and links.</span><span class="info info-css">Styles and lays out web pages with colors, fonts, spacing, flexbox and grid.</span><span class="info info-javascript">Adds interactivity to web pages, like menus, animations and games.</span><span class="info info-php">A server-side language used to build the back end of websites.</span><span class="info info-python">A readable general-purpose language used for scripting, data and AI.</span><span class="info info-csharp">A modern object-oriented language used for desktop apps and games.</span><span class="info info-cpp">A fast, low-level language used for systems software and games.</span><span class="info info-java">An object-oriented language used for apps and large software systems.</span><span class="info info-softwaredevelopment">Planning, building, testing and improving programs that solve real problems.</span><span class="info info-blockchain">A shared, tamper-resistant ledger technology behind cryptocurrencies.</span><span class="info info-computersetbuilder">Choosing and assembling PC parts into a complete working computer.</span></p>
+
+      <article class="post" data-cat="web">
+        <h3>Web Development</h3>
+        <ul class="chips">
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-html"><label class="chip" for="s-html">HTML</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-css"><label class="chip" for="s-css">CSS</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-javascript"><label class="chip" for="s-javascript">JavaScript</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-php"><label class="chip" for="s-php">PHP</label></li>
+        </ul>
+      </article>
+
+      <article class="post" data-cat="programming">
+        <h3>Programming Languages</h3>
+        <ul class="chips">
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-python"><label class="chip" for="s-python">Python</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-csharp"><label class="chip" for="s-csharp">C#</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-cpp"><label class="chip" for="s-cpp">C++</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-java"><label class="chip" for="s-java">Java</label></li>
+        </ul>
+      </article>
+
+      <article class="post" data-cat="other">
+        <h3>Other Skills</h3>
+        <ul class="chips">
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-softwaredevelopment"><label class="chip" for="s-softwaredevelopment">Software Development</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-blockchain"><label class="chip" for="s-blockchain">Blockchain</label></li>
+          <li><input class="skill-input" type="radio" name="selected-skill" id="s-computersetbuilder"><label class="chip" for="s-computersetbuilder">Computer Set Builder</label></li>
+        </ul>
+      </article>
+
+      <article class="post" data-cat="focus">
+        <h3>Technology &amp; Development</h3>
+        <p>I am interested in web development, computer systems, cybersecurity, and software problem-solving. These areas challenge me to think critically and improve my technical skills.</p>
+      </article>
+
+      <article class="post" data-cat="focus">
+        <h3>Academics</h3>
+        <p>My academic interests include engineering, science, research, and technological innovation. I value learning that can help me contribute to real-world solutions.</p>
+      </article>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; <span id="year">2026</span> Alejandrino. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lb-avatar" role="dialog" aria-modal="true" aria-label="Jerome Patrick Alejandrino">
+    <a class="lightbox-backdrop" href="#overview" aria-label="Close enlarged image"></a>
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino">
+      <figcaption class="lightbox-caption">Jerome Patrick Alejandrino</figcaption>
+    </figure>
+    <a class="lightbox-close" href="#overview" aria-label="Close enlarged image">&times;</a>
+  </div>
+
+  <a class="to-top" href="#overview" aria-label="Back to top">&uarr;</a>
+</body>
+</html>

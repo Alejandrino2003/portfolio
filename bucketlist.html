@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Places I dream of visiting.">
+  <title>Bucket List | Jerome Patrick Alejandrino</title>
+  <meta name="theme-color" content="#0a121a">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+
+<body class="bucketlist-page">
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="main.html">Jerome Patrick</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="main.html">OVERVIEW</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="passion.html">PASSION</a></li>
+        <li><a href="knowledge.html">KNOWLEDGE BASE</a></li>
+        <li><a href="bucketlist.html">BUCKET LIST</a></li>
+        <li><a href="certifications.html">CERTIFICATIONS</a></li>
+        <li><a href="social.html">SOCIAL MEDIA</a></li>
+        
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-toggle-wrap"><input class="toggle-input" type="checkbox" id="nav-switch" aria-label="Toggle navigation menu" aria-controls="nav-links"><label class="nav-toggle" for="nav-switch" aria-hidden="true">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </label></span>
+      </div>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </nav>
+
+  <div class="container">
+    <header id="home">
+      <div class="header-top">
+        <a class="zoom avatar-zoom" href="#lb-avatar" aria-label="Enlarge profile photo"><img class="avatar" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino" /></a>
+        <div class="header-copy">
+          <span class="eyebrow">Bucketlist</span>
+          <h1>My Journey to Software Development</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="profile-section">
+      <h2>BUCKET LIST</h2>
+
+      <p class="lead">I want to visit amazing places like these. These destinations inspire me because of their culture, beauty, and unforgettable experiences. Select a place to mark it as visited. Your choices reset when the page reloads.</p>
+
+      <div class="progress-wrap">
+        <p class="progress-text" id="progress-text"></p>
+        <div class="progress" aria-hidden="true">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+
+      <ul class="dest-grid">
+        <li><input class="dest-input" type="checkbox" id="dest-japan"><label for="dest-japan" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#9961;&#65039;</span><span class="dest-name">Japan</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-spain"><label for="dest-spain" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#128131;</span><span class="dest-name">Spain</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-germany"><label for="dest-germany" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#127984;</span><span class="dest-name">Germany</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-norway"><label for="dest-norway" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#127956;&#65039;</span><span class="dest-name">Norway</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-vietnam"><label for="dest-vietnam" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#128757;</span><span class="dest-name">Vietnam</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-siargao"><label for="dest-siargao" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#127940;</span><span class="dest-name">Siargao</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-boracay"><label for="dest-boracay" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#127958;&#65039;</span><span class="dest-name">Boracay</span><span class="dest-state">Dream</span></label></li>
+        <li><input class="dest-input" type="checkbox" id="dest-new-york"><label for="dest-new-york" class="dest"><span class="dest-check" aria-hidden="true">&#10003;</span><span class="dest-emoji" aria-hidden="true">&#128509;</span><span class="dest-name">New York</span><span class="dest-state">Dream</span></label></li>
+      </ul>
+
+      <div class="recommend">
+        <p class="recommend-title">A destination to dream about</p>
+        <div class="rotator recommend-rotator" aria-label="Trip inspiration">
+          <p class="rot-item recommend-result">Start with Japan for a mix of city life, food, and tradition.</p>
+          <p class="rot-item recommend-result">Norway is waiting with fjords, mountains, and northern lights.</p>
+          <p class="rot-item recommend-result">Make time for Siargao's beaches and laid-back island life.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; <span id="year">2026</span> Alejandrino. All rights reserved.</p>
+      <p>Built with plain HTML and CSS.</p>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lb-avatar" role="dialog" aria-modal="true" aria-label="Jerome Patrick Alejandrino">
+    <a class="lightbox-backdrop" href="#overview" aria-label="Close enlarged image"></a>
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino">
+      <figcaption class="lightbox-caption">Jerome Patrick Alejandrino</figcaption>
+    </figure>
+    <a class="lightbox-close" href="#overview" aria-label="Close enlarged image">&times;</a>
+  </div>
+
+  <a class="to-top" href="#overview" aria-label="Back to top">&uarr;</a>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Jerome Patrick Alejandrino, BSCPE 3-B.">
+  <title>My Journey to Software Development - Jerome Patrick Alejandrino (BSCPE3-B)</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="animations.css">
+
+</head>
+
+<body class="landing-page">
+  <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="main.html">Jerome Patrick</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="main.html">OVERVIEW</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="passion.html">PASSION</a></li>
+        <li><a href="knowledge.html">KNOWLEDGE BASE</a></li>
+        <li><a href="bucketlist.html">BUCKET LIST</a></li>
+        <li><a href="certifications.html">CERTIFICATIONS</a></li>
+        <li><a href="social.html">SOCIAL MEDIA</a></li>
+        
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-toggle-wrap"><input class="toggle-input" type="checkbox" id="nav-switch" aria-label="Toggle navigation menu" aria-controls="nav-links"><label class="nav-toggle" for="nav-switch" aria-hidden="true">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </label></span>
+      </div>
+    </div>
+    <span class="nav-progress" aria-hidden="true"></span>
+  </nav>
+
+  <div class="container">
+    <header id="overview">
+      <div class="header-top">
+        <a class="zoom avatar-zoom" href="#lb-avatar" aria-label="Enlarge profile photo"><img class="avatar" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino" /></a>
+        <div class="header-copy">
+          <span class="eyebrow">Overview</span>
+          <h1>My Journey to Software Development</h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section" id="profile">
+      <div class="hero-copy">
+        <span class="eyebrow" id="greeting">Welcome to my page</span>
+        <h2>Hi, I'm Jerome.<br>Right now I'm <span class="typed" id="typed"><span class="t">learning to code</span><span class="t">building new ideas</span><span class="t">growing every day</span></span><span class="caret" aria-hidden="true"></span></h2>
+        <p>I'm Jerome Patrick Alejandrino, a curious and driven computer engineering student who loves learning, creating, and growing. Discover my world, my goals, and the things that inspire me.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="profile.html">Meet me</a>
+          <a class="btn" href="social.html">Say hello</a>
+        </div>
+      </div>
+
+      <div class="hero-highlight">
+        <h3>Quick Snapshot</h3>
+        <ul>
+          <li>Computer Engineering student</li>
+          <li>Interested in technology, programming, and problem-solving</li>
+          <li>Enjoys music, sports, gaming, and new experiences</li>
+          <li>Always learning and aiming for improvement</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-label="My page at a glance">
+      <div class="stats">
+      <div class="stat"><span class="stat-number" aria-label="11"> </span><span class="stat-label">Tech skills</span></div>
+      <div class="stat"><span class="stat-number" aria-label="8"> </span><span class="stat-label">Dream destinations</span></div>
+      <div class="stat"><span class="stat-number" aria-label="7"> </span><span class="stat-label">Hobbies</span></div>
+      <div class="stat"><span class="stat-number" aria-label="4"> </span><span class="stat-label">Favorite series</span></div>
+      </div>
+
+      <div class="fact-box">
+        <div class="rotator fact-rotator" aria-label="A few facts about me">
+          <p class="rot-item"><strong>Did you know?</strong> Norway and Japan are both on my dream-trip list.</p>
+          <p class="rot-item"><strong>Did you know?</strong> I enjoy music, sports, gaming, and discovering new food.</p>
+          <p class="rot-item"><strong>Did you know?</strong> I am studying computer engineering and building my coding skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section">
+      <span class="eyebrow">Explore</span>
+      <h2>What You Can Discover Here</h2>
+
+      <div class="menu-grid">
+        <article class="landing-card">
+          <h3>Profile</h3>
+          <p>Get a short introduction to who I am, my journey, and the values that guide me.</p>
+          <a href="profile.html">View my profile</a>
+        </article>
+
+        <article class="landing-card">
+          <h3>Passion</h3>
+          <p>See the hobbies, entertainment, and interests that keep me inspired every day.</p>
+          <a href="passion.html">Explore passions</a>
+        </article>
+
+        <article class="landing-card">
+          <h3>Knowledge Base</h3>
+          <p>Discover the academic and technical areas I am learning and developing.</p>
+          <a href="knowledge.html">See knowledge base</a>
+        </article>
+
+        <article class="landing-card">
+          <h3>Bucket List</h3>
+          <p>Learn about the places and experiences I hope to explore in the future.</p>
+          <a href="bucketlist.html">View bucket list</a>
+        </article>
+
+        <article class="landing-card">
+          <h3>Social Media</h3>
+          <p>Connect with me through my social platforms and stay updated.</p>
+          <a href="social.html">Visit socials</a>
+        </article>
+
+        <article class="landing-card">
+          <h3>Certifications</h3>
+          <p>Browse the certificates and achievements I have earned along the way.</p>
+          <a href="certifications.html">View certifications</a>
+        </article>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; <span id="year">2026</span> Alejandrino. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lb-avatar" role="dialog" aria-modal="true" aria-label="Jerome Patrick Alejandrino">
+    <a class="lightbox-backdrop" href="#overview" aria-label="Close enlarged image"></a>
+    <figure class="lightbox-figure">
+      <img class="lightbox-image" src="qweqwe.jpg" alt="Jerome Patrick Alejandrino">
+      <figcaption class="lightbox-caption">Jerome Patrick Alejandrino</figcaption>
+    </figure>
+    <a class="lightbox-close" href="#overview" aria-label="Close enlarged image">&times;</a>
+  </div>
+
+  <a class="to-top" href="#overview" aria-label="Back to top">&uarr;</a>
+</body>
+</html>
